@@ -22,8 +22,8 @@ The game features:
 5. To start a new game, close the current window and run the script again.
 
 # Screenshots
-![Game Screenshot](tik tak to2/Screenshot_10.png)
-![Game Screenshot1](tik tak to2/Screenshot_11.png)
+![Game Screenshot](tik tak to2\Screenshot_10.png)
+![Game Screenshot1](tik tak to2\Screenshot_11.png)
 ![Game Screenshot2](Screenshot_12.png)
 
 # How To Download ?
