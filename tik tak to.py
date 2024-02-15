@@ -198,40 +198,40 @@ clicked9.set(True)
 
 
 
-play_box1=Button(panel,width=17,height=7,background="gray",border="2",textvariable=turn1,command=press1)
+play_box1=Button(panel,width=17,height=7,background="gray",border="-2",textvariable=turn1,command=press1)
 play_box1.grid(row=1,column=1)
 play_box1.bind("<Button-1>",press1)
 #/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
-play_box2=Button(panel,width=17,height=7,background="gray",border="2",textvariable=turn2,command=press2)
-play_box2.grid(row=1,column=2)
+play_box2=Button(panel,width=17,height=7,background="gray",border="-2",textvariable=turn2,command=press2)
+play_box2.grid(row=1,column=2,pady=1)
 play_box2.bind("<Button-1>",press2)
 #/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
-play_box3=Button(panel,width=17,height=7,background="gray",border="2",textvariable=turn3,command=press3)
+play_box3=Button(panel,width=17,height=7,background="gray",border="-2",textvariable=turn3,command=press3)
 play_box3.grid(row=1,column=3)
 play_box3.bind("<Button-1>",press3)
 #/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
-play_box4=Button(panel,width=17,height=7,background="gray",border="2",textvariable=turn4,command=press4)
+play_box4=Button(panel,width=17,height=7,background="gray",border="-2",textvariable=turn4,command=press4)
 play_box4.grid(row=2,column=1)
 play_box4.bind("<Button-1>",press4)
 #/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
-play_box5=Button(panel,width=17,height=7,background="gray",border="2",textvariable=turn5,command=press5)
-play_box5.grid(row=2,column=2)
+play_box5=Button(panel,width=17,height=7,background="gray",border="-2",textvariable=turn5,command=press5)
+play_box5.grid(row=2,column=2,pady=1,padx=1)
 play_box5.bind("<Button-1>",press5)
 #/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
-play_box6=Button(panel,width=17,height=7,background="gray",border="2",textvariable=turn6,command=press6)
+play_box6=Button(panel,width=17,height=7,background="gray",border="-2",textvariable=turn6,command=press6)
 play_box6.grid(row=2,column=3)
 play_box6.bind("<Button-1>",press6)
 #/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
-play_box7=Button(panel,width=17,height=7,background="gray",border="2",textvariable=turn7,command=press7)
+play_box7=Button(panel,width=17,height=7,background="gray",border="-2",textvariable=turn7,command=press7)
 play_box7.grid(row=3,column=1)
 play_box7.bind("<Button-1>",press7)
 #/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
-play_box8=Button(panel,width=17,height=7,background="gray",border="2",textvariable=turn8,command=press8)
+play_box8=Button(panel,width=17,height=7,background="gray",border="-2",textvariable=turn8,command=press8)
 play_box8.grid(row=3,column=2)
 play_box8.bind("<Button-1>",press8)
 #/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
-play_box9=Button(panel,width=17,height=7,background="gray",border="2",textvariable=turn9,command=press9)
-play_box9.grid(row=3,column=3)
+play_box9=Button(panel,width=17,height=7,background="gray",border="-2",textvariable=turn9,command=press9)
+play_box9.grid(row=3,column=3,pady=1)
 play_box9.bind("<Button-1>",press9)
 #/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
 
@@ -239,7 +239,8 @@ play_box9.bind("<Button-1>",press9)
 win_box=Entry(panel,textvar=win_info,width=23,font=("lucida",23),background="gray")
 win_box.grid(row=5,column=1,columnspan=14,sticky="n")
 
-panel.iconbitmap("icon/images_2KE_icon.ico")
+panel.configure(background="black")
+panel.iconbitmap("Tkinter_project/tik tak to/icon/images_2KE_icon.ico")
 panel.title("TOK TAK TO")
-panel.geometry("388x387+750+60")
+panel.geometry("380x381+750+60")
 panel.mainloop()
