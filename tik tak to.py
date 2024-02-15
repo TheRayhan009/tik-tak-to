@@ -239,7 +239,7 @@ play_box9.bind("<Button-1>",press9)
 win_box=Entry(panel,textvar=win_info,width=23,font=("lucida",23),background="gray")
 win_box.grid(row=5,column=1,columnspan=14,sticky="n")
 
-panel.iconbitmap("tik tak to2/images_2KE_icon.ico")
+panel.iconbitmap("icon/images_2KE_icon.ico")
 panel.title("TOK TAK TO")
 panel.geometry("388x387+750+60")
 panel.mainloop()
