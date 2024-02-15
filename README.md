@@ -22,9 +22,9 @@ The game features:
 5. To start a new game, close the current window and run the script again.
 
 # Screenshots
-![Game Screenshot](https://github.com/TheRayhan009/tik-tak-to/blob/main/tiktak-to2/Screenshot_10.png)
-![Game Screenshot1](https://github.com/TheRayhan009/tik-tak-to/blob/main/tik-tak-to2/Screenshot_11.png)
-![Game Screenshot2](https://github.com/TheRayhan009/tik-tak-to/blob/main/tik-tak-to2/Screenshot_12.png)
+![Game Screenshot](Screenshot_10.png)
+![Game Screenshot1](Screenshot_11.png)
+![Game Screenshot2](Screenshot_12.png)
 
 
 # How To Download ?
