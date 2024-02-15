@@ -21,6 +21,12 @@ The game features:
 4. The game automatically detects wins or draws and displays the result.
 5. To start a new game, close the current window and run the script again.
 
+# How To Download ?
+
+```bash
+git clone https://github.com/TheRayhan009/tik-tak-to
+```
+
 ## Credits
 
 This Tic Tac Toe game was made by TheRayhanPY.
