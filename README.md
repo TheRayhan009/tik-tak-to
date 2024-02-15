@@ -21,6 +21,11 @@ The game features:
 4. The game automatically detects wins or draws and displays the result.
 5. To start a new game, close the current window and run the script again.
 
+# Screenshots
+![Game Screenshot](Screenshot_10.png)
+![Game Screenshot](Screenshot_11.png)
+![Game Screenshot](Screenshot_12.png)
+
 # How To Download ?
 
 ```bash
