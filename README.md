@@ -23,8 +23,8 @@ The game features:
 
 # Screenshots
 ![Game Screenshot](Screenshot_10.png)
-![Game Screenshot](Screenshot_11.png)
-![Game Screenshot](Screenshot_12.png)
+![Game Screenshot1](Screenshot_11.png)
+![Game Screenshot2](Screenshot_12.png)
 
 # How To Download ?
 
