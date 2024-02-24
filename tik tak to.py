@@ -240,7 +240,6 @@ win_box=Entry(panel,textvar=win_info,width=23,font=("lucida",23),background="gra
 win_box.grid(row=5,column=1,columnspan=14,sticky="n")
 
 panel.configure(background="black")
-panel.iconbitmap("Tkinter_project/tik tak to/icon/images_2KE_icon.ico")
 panel.title("TOK TAK TO")
 panel.geometry("380x381+750+60")
 panel.mainloop()
